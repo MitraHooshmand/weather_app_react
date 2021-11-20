@@ -1,38 +1,155 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App body {
+  font-family: "Prompt", sans-serif;
+}
+.App h1,
+h2,
+h3 {
+  padding: 0 32px;
+}
+.App h1 {
+  color: #2e7d32;
+  font-size: 48px;
+  font-weight: 700;
+}
+.App h2 {
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 3px;
+  padding-bottom: 0;
+  font-weight: 200px;
+  display: inline;
+  padding-right: 0;
+}
+.App h3 {
+  font-size: 12px;
+  font-weight: 100px;
+  opacity: 0.6;
+}
+.App img {
+  width: 140px;
+  /* border: 1px solid green; */
+  /* background-color: #b9c6d6; */
+  /* border-radius: 80px; */
+  margin-left: 40px;
+  display: inline;
+}
+.App img:hover {
+  border: 2px solid #2e7d32;
+  border-radius: 80px;
+}
+.App .forcastImage {
+  width: 40px;
+  position: relative;
+  left: -44px;
+  top: -10px;
+}
+.App hr {
+  width: 85%;
+  margin: 15px auto;
+  display: block;
+}
+.App #showTemp {
+  margin: 0px;
+}
+.App #showCountry {
+  font-weight: bold;
+}
+.App a {
+  color: #2e7d32;
+  text-decoration: none;
+}
+.App a:hover {
+  /* font-weight: bold; */
+  color: #2e7d32;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App .active {
+  color: black;
+  cursor: default;
+}
+.App .active:hover {
+  color: black;
+
+  cursor: default;
+}
+.App .currentTemp {
+  font-size: 12px;
+  /*margin: 1px 6px;*/
+  position: relative;
+  top: 12px;
+}
+.App .cilciusFarenhayt {
+  color: black;
+  font-size: 10px;
+  font-weight: lighter;
+  position: relative;
+  top: -30px;
+  left: -20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.App .bgVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 0.9;
+}
+/* .card-body{
+  background-color: #F4DFD0;
+} */
+.App .card-bg {
+  border-radius: 3.25rem;
+  width: 610px;
+  display: block;
+  margin: 73px auto;
+  background-color: #f9f9f9;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  /* margin: 90px 50px; */
+  min-width: 412px;
+}
+.App .summeriInfo {
+  padding: 10px 45px 20px 45px;
+}
+.App .summeriInfo p {
+  font-size: 12px;
+  display: inline;
+  opacity: 0.6;
+}
+.App .smallIcon:hover {
+  color: #2e7d32;
+}
+.App .nextDays {
+  padding: 0 40px;
+  margin: 0 20px;
+  font-size: 12px;
+  opacity: 0.7;
+  text-align: center;
+}
+.App .weather-forcast-min {
+  color: #2e7d32;
 }
 
-.App-link {
-  color: #61dafb;
+.App .nextDayIcon {
+  font-size: 20px;
+  opacity: 0.6;
+}
+.App .nextDayIcon:hover {
+  color: #2e7d32;
+  opacity: 0.9;
+}
+.App .openSource {
+  font-size: 10px;
+}
+.App .small {
+  font-size: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App .openSourceContainer {
+  width: 100%;
+  text-align: center;
+  padding-top: 15px;
 }

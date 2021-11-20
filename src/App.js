@@ -85,7 +85,7 @@ export default function App() {
             <div className="col-12">
               <div className="openSourceContainer">
                 <a
-                  href="https://github.com/mita4824/weatherApp"
+                  href="https://github.com/mita4824/weather_app_react"
                   className="openSource"
                 >
                   Open-Source{" "}
